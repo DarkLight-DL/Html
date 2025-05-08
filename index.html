@@ -219,21 +219,19 @@
 
 </div>
 
-<div style="height: 50px; width: 100%; background-color: aliceblue; display: flex;justify-content:center ;align-items: center;">
-    <p>Copyright © 2025 Mountaion created with ❤️ by Asik</p>
+<footer style="height: 100px; width: 100%; background-color: aliceblue;font-size:small;text-align: center;align-content: center;">
+    <p id="Copyright"></p>
 
-</div>
-
-    
-    
-         
+</footer>
 
 
 
-
-
-    
-    
 
 </body>
+<script>
+    document.querySelector("#Copyright").innerHTML = `Copyright &copy;${new Date().getFullYear()}
+All rights reserved | This template is made with ❤️ by Asik Ahamed `
+;
+
+    </script>
 </html>
